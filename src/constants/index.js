@@ -20,12 +20,15 @@ import {
     tesla,
     shopify,
     carrent,
-    homepriv,
-    preview,
+    // homeprivsize,
+    // preview,
     jobit,
     tripguide,
     threejs,
   } from "../assets";
+  import {preview} from "./assets";
+  import {homeprivsize} from "./assets";
+
   
   export const navLinks = [
     {
@@ -258,9 +261,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: homepriv,
+      image: homeprivsize,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, homepriv };
+  export { services, technologies, experiences, testimonials, projects, };
