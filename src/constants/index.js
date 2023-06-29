@@ -20,15 +20,16 @@ import {
     tesla,
     shopify,
     carrent,
-    // homeprivsize,
-    // preview,
+    homeprivsize,
+    preview,
     jobit,
     tripguide,
     threejs,
+    fiverr,
+    techhold,
+    attique,
+    freelancer,
   } from "../assets";
-  import {preview} from "./assets";
-  import {homeprivsize} from "./assets";
-
   
   export const navLinks = [
     {
@@ -123,8 +124,8 @@ import {
     {
       title: "Freelance Front-End Developer",
       company_name: "Fiverr, Freelancer",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: fiverr,
+      iconBg: "#E6DEDD",
       date: "September 2020 - Febuary 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -136,8 +137,8 @@ import {
     {
       title: "Junior Front-End Developer",
       company_name: "Techhold Engineering",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: techhold,
+      iconBg: "#efdecd",
       date: "February 2021 - December 2021",
       points: [
         "Implemented front-end technical solutions to meet project requirements for creation of 5 new web pages.",
@@ -148,8 +149,8 @@ import {
     },
     {
       title: "Junior Front-End Engineer",
-      company_name: "TECHFIX Appliances",
-      icon: shopify,
+      company_name: "Attique Appliances",
+      icon: attique,
       iconBg: "#383E56",
       date: "January 2022 - Novermber 2022",
       points: [
@@ -161,7 +162,7 @@ import {
     {
       title: "Freelancer Front-End Developer",
       company_name: "Upwork Inc, Fiverr",
-      icon: meta,
+      icon: freelancer,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -220,7 +221,8 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://bit.ly/linkedin-Njabulo-Ndlovu",
+      site_link: "https://bit.ly/linkedin-Njabulo-Ndlovu",
     },
     {
       name: "Flodex estate",
@@ -241,7 +243,8 @@ import {
         },
       ],
       image: preview,
-      source_code_link: "https://jaydecreator.github.io/RealEstateApp/",
+      source_code_link: "https://github.com/Jaydecreator/RealEstateApp",
+      site_link: "https://jaydecreator.github.io/RealEstateApp/",
     },
     {
       name: "Home365",
@@ -262,7 +265,8 @@ import {
         },
       ],
       image: homeprivsize,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Jaydecreator/Home365website",
+      site_link: "https://jaydecreator.github.io/Home365website/",
     },
   ];
   
