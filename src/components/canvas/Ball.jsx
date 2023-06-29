@@ -33,12 +33,12 @@ const [ decal ] = useTexture([props.imgUrl]);
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
+      frameloop='always'
       gl={{preserveDrawingBuffer: true}}
     >
       <Suspense  fallback={<CanvasLoader />}> 
         <OrbitControls 
-        autoRotate
+        // autoRotate
         enableZoom={false}/>
         <Ball imgUrl= {icon} />
       </Suspense>

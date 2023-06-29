@@ -20,6 +20,8 @@ import {
     tesla,
     shopify,
     carrent,
+    homepriv,
+    preview,
     jobit,
     tripguide,
     threejs,
@@ -54,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Sound Engineer",
       icon: creator,
     },
   ];
@@ -116,11 +118,11 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Freelance Front-End Developer",
+      company_name: "Fiverr, Freelancer",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2020 - Febuary 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,34 +131,33 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Junior Front-End Developer",
+      company_name: "Techhold Engineering",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "February 2021 - December 2021",
       points: [
+        "Implemented front-end technical solutions to meet project requirements for creation of 5 new web pages.",
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led troubleshooting, fixed 500+ bugs and other issues, and updated sites throughout production lifecycle.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Junior Front-End Engineer",
+      company_name: "TECHFIX Appliances",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "January 2022 - Novermber 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Optimized images and code to increse Time on page by 30 seconds on multiple sites.",
+        "Assisted in A/B testing of different UX  components that resulted in a 25% increase of customer conversion rates.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Freelancer Front-End Developer",
+      company_name: "Upwork Inc, Fiverr",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
@@ -207,7 +208,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "SQL",
           color: "green-text-gradient",
         },
         {
@@ -219,37 +220,37 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Flodex estate",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for real estate, view estimated salary prices of homes , and purchase available houses based on their current budgets and location.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: preview,
+      source_code_link: "https://jaydecreator.github.io/RealEstateApp/",
     },
     {
-      name: "Trip Guide",
+      name: "Home365",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An Appliance repairs site for both clients needing repairs and for technitians offering their services, this the place where they both meet.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "React",
           color: "green-text-gradient",
         },
         {
@@ -257,9 +258,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: homepriv,
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, homepriv };
